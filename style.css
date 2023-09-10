@@ -1,0 +1,251 @@
+.navigation{
+    margin: auto;
+    width: 760px;
+}
+
+.btnNav{
+    border-radius: 30px;
+    font-family: Rival;
+    font-size: 15px;
+    letter-spacing: 6px;
+    padding: 15px;
+    width: 240px;
+    border: solid #2E3835 1px;
+    border-width: 1px;
+    border-color: #2E3835;
+    color:#2E3835;
+    margin-top: 17px;
+    margin-left: 7px;
+    margin-right: 3px;
+    background-color: #F1EDE4;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.btnNav:hover {
+    color:#D36135;
+    border-color:#D36135;
+}
+.btnStatus_open {
+    font-family: Rival;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #A8BE74;
+    letter-spacing: 5px;
+}
+.btnStatus_closed {
+    font-family: Rival;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E29779;
+    letter-spacing: 5px;
+}
+.btnOrder{
+    font-family: Rival;
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E29779;
+    letter-spacing: 5px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.btnOrder:hover {
+    background-color: #A8BE74;
+}
+
+
+
+
+body {
+    background-color: #F1EDE4;
+}
+.divider {
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid #9AACA7 1px;
+}
+.divider_short {
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid #9AACA7 1px;
+}
+.bold {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.spaced {
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.underline {
+    text-decoration: underline;
+}
+.price {
+    color: #D36135;
+}
+img {
+    width: 350px;
+    margin: 5px;
+}
+.leftaligned {
+    text-align: left;
+}
+.link {
+    color: #D36135;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/*ICONS*/
+.mainIcons {
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.iconRound {
+    padding: 3px;
+    width: 36px;
+    height: 36px;
+    float:left;
+    margin: 5px;
+    border-radius: 20px;
+    border: solid #2E3835 1px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.iconRound:hover {
+    border-color: #D36135;
+}
+.iconRound:hover .iconContainer {
+    fill: #D36135;
+}
+.iconContainer {
+    margin: 7px;
+    width: 22px;
+    height: 22px;
+    float:left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.25s;
+    fill: #2E3835;
+}
+
+
+
+
+
+.mainHeader {
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Rival;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+#img_profpic {
+    width: 120px;
+    border-radius: 100%;
+    border: dashed 2px #2E3835;
+    padding: 6px;
+}
+.mainTitle {
+    margin-top: -25px;
+}
+
+
+
+
+.bodyStyle {
+    width: 1000px;
+    margin:auto;
+    text-align:center;
+    font-family: Rival;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    overflow: hidden;
+    color:#2E3835;
+}
+#body_About {
+    height:450px;
+    transition: 0.5s;
+}
+#body_Commissions {
+    height: 0px;
+    transition: 0.5s;
+}
+#body_Character {
+    height: 0px;
+    transition: 0.5s;
+}
+#body_Illustration {
+    height: 0px;
+    transition: 0.5s;
+}
+#body_Twitch {
+    height: 0px;
+    transition: 0.5s;
+}
+#body_TC {
+    height: 0px;
+    transition: 0.5s;
+}
+#body_Order {
+    height: 0px;
+    transition: 0.5s;
+}
+
+
+.btnLinked {
+    width: 300px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+
+    font-family: Rival;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 12px;
+    border-width: 1px;
+    border: solid #2E3835 1px;
+    color: #2E3835;
+    background-color: #F1EDE4;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.btnLinked:hover {
+    color: #D36135;
+    border-color: #D36135;
+}
+
+
+
+.mainFooter {
+    color: #2E3835;
+    text-align: center;
+    font-family: Rival;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
